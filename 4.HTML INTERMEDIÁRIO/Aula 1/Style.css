@@ -1,0 +1,96 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+   
+}
+.header {
+    background-image: url(img/test.jpg);
+    background-size: 1590px;
+ 
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    background-color: #ffffff70;
+    padding: 120px;
+    background-image: url(img/plant.svg);
+    background-repeat: no-repeat;
+    background-position: 730px 40px;
+}
+
+.container {
+    display: flex;
+
+}
+
+.navbar {
+    width: 20%;
+    background-color: #114f1b6b;
+    padding: 145px 50px;
+    
+    
+}
+
+.content {
+    width: 80%;
+    background-color: #d8d8d8;
+    padding: 20px 90px 0 90px;
+}
+
+.content h1{
+    color: #063806;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0 40px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.footer {
+    background-color: rgba(4, 57, 24, 0.412);
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+
+}
+
+.quem-somos {
+    width: 200px;
+}
+
+.jobs-list{
+    list-style: none;
+    
+}
+
+.jobs-list li {
+    margin: 10px 0px;
+    text-align: #ffffff4f; ;
+}
+
+.jobs-list li a {
+  display: block;
+  width: 200px;
+  margin: 10px 0 10px 0;
+  color: #000000;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+ 
+}
+
+.jobs-list li button {
+    background-color: #0052298f;
+    border: #0052298f;
+    border-radius: 50px 0px 50px 0px;
+       
+}
